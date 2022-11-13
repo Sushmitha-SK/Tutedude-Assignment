@@ -1,0 +1,50 @@
+.breadcrumblinks {
+  margin-right: 5px;
+}
+
+.breadcrumblink_rightarrow {
+  margin-left: 5px;
+}
+
+.breadcrumblinks:last-child .breadcrumblink_rightarrow {
+  display: none;
+}
+
+.breadcrumbpath {
+  width: 100%;
+  height: 76px;
+  left: 0px;
+  top: 73px;
+  background: #ffffff;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.workspace {
+  width: 75%;
+  margin: auto;
+}
+
+.breadcrumbpath_container {
+  width: 75%;
+  margin: auto;
+  height: 76px;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .breadcrumbpath_container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .breadcrumbpath_container {
+    width: 90%;
+    max-width: 600px;
+  }
+}

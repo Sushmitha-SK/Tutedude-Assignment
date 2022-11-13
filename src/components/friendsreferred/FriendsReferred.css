@@ -1,0 +1,235 @@
+.FriendsReferred {
+  text-align: left;
+}
+
+.friendsreferred_goback {
+  gap: 10px;
+  display: none;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.workspace {
+  width: 75%;
+  margin: auto;
+}
+
+.friendsreferred_section2_title span {
+  position: absolute;
+  left: 189px;
+  top: 296px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #800080;
+}
+
+.friendsreffered_section1 {
+  justify-content: space-between;
+}
+
+.friendsreferred_section1_referralcode {
+  left: 187px;
+  margin-top: 20px;
+}
+
+.friendsreferred_section1_referralcode_title {
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  left: 187px;
+  top: 151px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+
+.friendsreferred_section1_referralcode_desc {
+  width: 100%;
+  padding: 13px 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border: 1.5px solid #dfdfdf;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.friendsreferred_section1wallet {
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+}
+
+.friendsreferred_section1wallet_title {
+}
+
+.friendsreferred_section1wallet_value {
+}
+
+.FriendsEnrolled_Card {
+  width: 358px;
+  height: 228px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.friendsenrolledcard_title {
+  justify-content: space-between;
+}
+
+.friendsenrolledcard_title_name {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.friendsenrolledcard_title_date {
+  position: absolute;
+  margin-left: 255px;
+  margin-top: 23px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.friendsenrolledcard_subtitle {
+  margin-left: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.friendsenrolledcard_courselist_data {
+  padding: 10px;
+  position: absolute;
+  width: 992px;
+  height: 228px;
+  left: 187px;
+  top: 346px;
+  overflow-x: scroll;
+}
+
+.friendsenrolledcard_courselist {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 78px;
+  overflow-y: scroll;
+}
+
+.friendsenrolledcard_courselist {
+  width: 5px;
+}
+
+.friendsenrolledcard_courselist::-webkit-scrollbar {
+  width: 5px;
+}
+
+.friendsenrolledcard_courselist::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.friendsenrolledcard_courselist::-webkit-scrollbar-thumb {
+  background: #ff864c;
+  border-radius: 2.5px;
+}
+
+.coursecard {
+  padding: 4px 9px;
+  border: 1.5px solid #eeaeae;
+  border-radius: 20px;
+}
+
+.friendsenrolledcard_footer {
+  justify-content: space-between;
+}
+
+.friendsenrolled_footer_title {
+  position: absolute;
+
+  margin-left: 20px;
+  margin-top: 182px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.friendsenrolled_footer_value {
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.FriendsReferred_Section3 {
+  left: 187px;
+  margin-top: 650px;
+}
+
+.friendsreferred_footer {
+  text-align: left;
+}
+
+.FriendsReferredSection3_Link {
+  margin-left: 187px;
+  top: 799px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+
+.friendsreferred_section2_desc {
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+@media only screen and (min-width: 901px) {
+}
+
+@media only screen and (max-width: 900px) {
+  .FriendsEnrolled_Card {
+    width: 100%;
+  }
+
+  .friendsreferred_section2_desc {
+    row-gap: 20px;
+  }
+  .friendsreferred_goback {
+    gap: 10px;
+  }
+}

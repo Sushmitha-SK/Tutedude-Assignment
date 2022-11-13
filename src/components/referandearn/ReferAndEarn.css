@@ -1,0 +1,251 @@
+.ReferandEarn_Section1 {
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.ReferandEarn_Section1_details {
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+  box-shadow: 0px 3px 100px rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  max-width: 500px;
+  position: absolute;
+  width: 486px;
+  height: 200px;
+  left: 187px;
+  top: 179px;
+  background: #ffffff;
+}
+
+.referandearnbtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 150px;
+  top: 120px;
+}
+
+.referalbtn {
+  border: 0;
+  background: #800080;
+  color: white;
+  font-family: inherit;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.workspace {
+  width: 75%;
+  margin: auto;
+}
+
+.referaldetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  left: 20px;
+  margin-bottom: 60px;
+}
+
+.referaldetails_name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #800080;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.referaldetails_value {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.ReferaandEarn_Section_refcode {
+  position: absolute;
+  width: 358px;
+  height: 105px;
+  left: 766px;
+  top: 179px;
+}
+
+.ReferaandEarn_Section_refcode_title {
+  top: 179px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+}
+
+.ReferaandEarn_Section_refcode_input {
+  width: 100%;
+  padding: 15px 64px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 5px;
+  border: 1.5px solid transparent;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-radius: 10px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to left, #800080, #ff864c) border-box;
+}
+
+.code_value {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.5em;
+  color: #800080;
+}
+
+.ReferandEarn_Section2 {
+  text-align: left;
+  color: #800080;
+  position: absolute;
+  width: 764px;
+  height: 332px;
+  top: 407px;
+  margin-top: 40px;
+}
+
+.referandearnsection2_title {
+  position: absolute;
+  height: 36px;
+  left: 187px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+}
+
+.referandearnsection2_details {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 187px;
+  width: 764px;
+  margin-top: 50px;
+}
+
+.ReferalWorkCard {
+  width: 50%;
+  padding: 10px 10px 10px 0px;
+  gap: 10px;
+}
+
+.referalworkcardicon {
+  background: rgba(217, 217, 217, 0.25);
+  width: 65px;
+  height: 65px;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.referalcard_content {
+  flex: 1;
+}
+
+.referalworkcard_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.referalworkcard_contentdetails {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+}
+
+.ReferandEarn_Section3 {
+  left: 187px;
+  margin-top: 650px;
+  margin-bottom: 50px;
+}
+
+.referandearn_footer {
+  text-align: left;
+}
+
+.ReferAndEarnSection3_Link {
+  margin-left: 187px;
+  top: 799px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+
+@media only screen and (max-width: 900px) {
+  .ReferandEarn_Section1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .ReferandEarn_Section1_details {
+    width: 100%;
+  }
+
+  .referalbtn {
+    border: 0;
+    background: #800080;
+    color: white;
+    font-family: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 50px;
+  }
+
+  .ReferalWorkCard {
+    width: 100%;
+  }
+}
